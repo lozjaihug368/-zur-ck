@@ -1,0 +1,45 @@
+/* CSS animation for rotating the image */
+*{
+    margin:0;
+    padding: 0;
+  }
+  .body{
+    background-color: aquamarine;
+  }
+  .bbutton {
+    color:black;
+    margin-top:10px;
+    background: linear-gradient(135deg, #f0f0f0 0%, #f0f0f0 100%); /* Cold tone gradient */
+    border: 1px solid #141414; /* Blue border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 4px 10px; /* Larger padding */
+    font-size: 18px; /* Larger font size */
+    /* font-family: 'Courier New', monospace; */ /* Retro font family */
+    cursor: pointer; /* Pointer cursor */
+    /* box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); */ /* Shadow for 3D effect */
+  }
+
+  .bbutton:hover {
+    /* background: linear-gradient(135deg, #7bff07 0%, #7bff07 100%); */ /* Reverse gradient on hover */
+    /* box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.4); */ /* Darker shadow on hover */
+  }
+
+  .timer {
+    font-size: 32px; /* Increase font size */
+    font-family: 'Courier New', monospace; /* Retro font family */
+    color: #120d2e; /* Dark slate blue color */
+  }
+    
+
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .p2img {
+    animation: rotate 60s linear infinite; /* Adjust speed as needed */
+  }

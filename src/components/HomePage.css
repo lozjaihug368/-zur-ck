@@ -1,0 +1,62 @@
+/* src/components/HomePage.css */
+
+.home-page{
+    
+  background-size: cover; /* 图片尺寸自适应 */
+  background-position: center; /* 图片居中 */
+  height: 100vh; /* 视口高度 */
+  margin: 0; /* 去除默认的margin */
+  padding: 0; /* 去除默认的padding */
+}
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+    margin-top: 40px;
+    background-color: rgba(255,255,255,0);
+  }
+  
+  .nav-button {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    overflow: hidden; 
+    background-color: rgba(255,255,255,0);
+  }
+  
+  .rotating-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    background-size: cover;
+    animation: rotate 30s linear infinite;
+    background-color: rgba(255,255,255,0);
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .icon {
+    z-index: 1; 
+  }
+  
+  /* 调整其他样式来确保图标和文字在前景 */
+  
