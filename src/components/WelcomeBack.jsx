@@ -42,7 +42,7 @@ function ImageUploader() {
     <div>
        <button onClick={() => navigate('/')}>back to main page</button>
       <h1>What's inside her chest?</h1>
-      <h5>screenshot to save your pic bc your mom doesnt want you to download her chest.</h5>
+      <h5>Click upload file button to add a pic in her chest.screenshot to save the result.</h5>
       <h5>square pics are more perferred when uploading!</h5>
       <div>
         <input type="file" onChange={handleImageUpload} />

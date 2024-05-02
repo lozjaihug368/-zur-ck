@@ -8,16 +8,16 @@ function HomePage() {
   const navigate = useNavigate();
 
   return (
-    <div className='home-page' style={{ backgroundImage: 'url("/background.webp")' }}>
+    <div className='home-page' style={{ backgroundImage: 'url("background.png")' }}>
       <h1>Choose One...</h1>
       <div className="button-container">
         <button onClick={() => navigate('/welcome-back')} className="nav-button">
-          <div className="rotating-background" style={{ backgroundImage: 'url("/logo92.png")' }}></div>
+          <div className="rotating-background" style={{ backgroundImage: 'url("logo192.png")' }}></div>
           <FaPaintRoller size={30} className="icon" />
           <span style={{ zIndex: '1' }}>Welcome Back</span>
         </button>
         <button onClick={() => navigate('/timer')} className="nav-button">
-          <div className="rotating-background" style={{ backgroundImage: 'url("/logo92.png")' }}></div>
+          <div className="rotating-background" style={{ backgroundImage: 'url("logo192.png")' }}></div>
           <FaRegClock size={30} className="icon" />
           <span style={{ zIndex: '1' }}>Just a Timer</span>
         </button>
