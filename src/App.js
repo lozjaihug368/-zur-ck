@@ -1,7 +1,8 @@
 // App.js
+// npm run deploy
 
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './components/HomePage';
 import TimerPage from './components/Timer';
 import WelcomeBack from './components/WelcomeBack'; // 导入新组件

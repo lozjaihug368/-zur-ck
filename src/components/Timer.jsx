@@ -77,9 +77,9 @@ function TimerPage() {
           </button>
         </div>
       )}
-      <img src="/p1.png" style={{ width: '100%', position: 'absolute', zIndex: 3,left:0 }} alt="Image 1" />
-      {showP2Img && <img id="p2-img" className={styles.p2img} src="/p22.png" style={{ width: '100%', position: 'absolute', zIndex: 2,left:0,top:'90px'}} alt="Image 2" />}
-      {showP3Gif && <img id="p3-gif" src="/p22.png" style={{ width: '100%', position: 'absolute', zIndex: 1,left:0,top:'90px' }} alt="GIF Animation" />}
+      <img src="p11.png" style={{ width: '100%', position: 'absolute', zIndex: 3,left:0 }} alt="Image 1" />
+      {showP2Img && <img id="p2-img" className={styles.p2img} src="p22.png" style={{ width: '100%', position: 'absolute', zIndex: 2,left:0,top:'90px'}} alt="Image 2" />}
+      {showP3Gif && <img id="p3-gif" src="p22.png" style={{ width: '100%', position: 'absolute', zIndex: 1,left:0,top:'90px' }} alt="GIF Animation" />}
     </div>
   );
 }
