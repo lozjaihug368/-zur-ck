@@ -1,5 +1,6 @@
 {
   "name": "my-image-uploader",
+  "homepage": "https://frb6889.github.io/welcome-back-retro-toolbox",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -40,7 +41,6 @@
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"
-  },
-  "homepage": "https://<username>.github.io/<repository-name>"
+  }
 
 }
