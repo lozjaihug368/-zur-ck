@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/-zur-ck/static/css/main.70602e85.css",
+    "main.js": "/-zur-ck/static/js/main.b32cfcf0.js",
+    "static/js/453.245c4b66.chunk.js": "/-zur-ck/static/js/453.245c4b66.chunk.js",
+    "index.html": "/-zur-ck/index.html",
+    "main.70602e85.css.map": "/-zur-ck/static/css/main.70602e85.css.map",
+    "main.b32cfcf0.js.map": "/-zur-ck/static/js/main.b32cfcf0.js.map",
+    "453.245c4b66.chunk.js.map": "/-zur-ck/static/js/453.245c4b66.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70602e85.css",
+    "static/js/main.b32cfcf0.js"
+  ]
+}
